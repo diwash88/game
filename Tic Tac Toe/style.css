@@ -1,0 +1,49 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+table{
+    display: block;
+    border-collapse: collapse;
+    margin: 20px auto;
+
+}
+caption{
+    font-size: 32px;
+    margin: 24px auto;
+
+}
+td{
+    border: 1px solid black;
+    width: 80px;
+    height: 48px;
+    font-size: 48px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+td:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: turquoise;
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#game-winner{
+    display: none;
+}
